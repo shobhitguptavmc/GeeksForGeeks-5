@@ -13,6 +13,7 @@ struct TrieNode
     unsigned frequency;  // the number of occurrences of a word
     int indexMinHeap; // the index of the word in minHeap
     TrieNode* child[MAX_CHARS]; // represents 26 slots each for 'a' to 'z'.
+    //constructor
     TrieNode() {
 	isEnd = 0;
 	frequency = 0;
